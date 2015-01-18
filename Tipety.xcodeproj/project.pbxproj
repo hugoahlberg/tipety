@@ -405,6 +405,7 @@
 				F2B36C691A5465AF00C38074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2B36C6A1A5465AF00C38074 /* Build configuration list for PBXNativeTarget "TipetyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				F2B36C6C1A5465AF00C38074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
