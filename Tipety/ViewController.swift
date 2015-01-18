@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var tipHeader: UILabel!
+    @IBOutlet weak var totalHeader: UILabel!
     
     
     override func viewDidLoad() {
@@ -22,6 +24,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "$0.00"
         totalLabel.text = "$0"
+        billField.becomeFirstResponder()
+        
+        tipHeader.attributedText = NSAttributedString(string: self.tipHeader.text!, attributes: [NSKernAttributeName:3.5])
+        totalHeader.attributedText = NSAttributedString(string: self.totalHeader.text!, attributes: [NSKernAttributeName:3.5])
+        
     }
 
     override func didReceiveMemoryWarning() {
