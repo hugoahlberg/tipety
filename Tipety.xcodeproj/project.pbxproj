@@ -11,8 +11,8 @@
 		F2B36C501A5465AF00C38074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36C4F1A5465AF00C38074 /* ViewController.swift */; };
 		F2B36C531A5465AF00C38074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B36C511A5465AF00C38074 /* Main.storyboard */; };
 		F2B36C551A5465AF00C38074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B36C541A5465AF00C38074 /* Images.xcassets */; };
-		F2B36C581A5465AF00C38074 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B36C561A5465AF00C38074 /* LaunchScreen.xib */; };
 		F2B36C641A5465AF00C38074 /* TipetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B36C631A5465AF00C38074 /* TipetyTests.swift */; };
+		F2F037921A6C621300658C32 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F037911A6C621300658C32 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +32,10 @@
 		F2B36C4F1A5465AF00C38074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2B36C521A5465AF00C38074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2B36C541A5465AF00C38074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F2B36C571A5465AF00C38074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2B36C5D1A5465AF00C38074 /* TipetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B36C621A5465AF00C38074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B36C631A5465AF00C38074 /* TipetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipetyTests.swift; sourceTree = "<group>"; };
+		F2F037911A6C621300658C32 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 		F2B36C3F1A5465AF00C38074 = {
 			isa = PBXGroup;
 			children = (
+				F2F037911A6C621300658C32 /* Launch Screen.xib */,
 				F2B36C4A1A5465AF00C38074 /* Tipety */,
 				F2B36C601A5465AF00C38074 /* TipetyTests */,
 				F2B36C491A5465AF00C38074 /* Products */,
@@ -81,7 +82,6 @@
 				F2B36C4F1A5465AF00C38074 /* ViewController.swift */,
 				F2B36C511A5465AF00C38074 /* Main.storyboard */,
 				F2B36C541A5465AF00C38074 /* Images.xcassets */,
-				F2B36C561A5465AF00C38074 /* LaunchScreen.xib */,
 				F2B36C4B1A5465AF00C38074 /* Supporting Files */,
 			);
 			path = Tipety;
@@ -192,8 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F037921A6C621300658C32 /* Launch Screen.xib in Resources */,
 				F2B36C531A5465AF00C38074 /* Main.storyboard in Resources */,
-				F2B36C581A5465AF00C38074 /* LaunchScreen.xib in Resources */,
 				F2B36C551A5465AF00C38074 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +242,6 @@
 				F2B36C521A5465AF00C38074 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F2B36C561A5465AF00C38074 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2B36C571A5465AF00C38074 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
