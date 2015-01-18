@@ -14,6 +14,7 @@ Notes:
 How can I make the keyboard, or input field to be active, from the start of the app? (would be nice not having to tap to begin but just start typing)
 
 Walkthrough:
-![Video Walkthrough](tipety.gif)
+![Video Walkthrough]
+(tipety.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
